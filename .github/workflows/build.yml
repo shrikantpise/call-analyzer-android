@@ -20,6 +20,9 @@ jobs:
 
       - name: Cache Gradle
         uses: gradle/gradle-build-action@v2
+  
+      - name: Make gradlew executable
+        run: chmod +x gradlew
 
       - name: Build Debug APK
         run: ./gradlew assembleDebug
