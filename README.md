@@ -4,7 +4,7 @@ Simple app to:
 - Read call logs
 - Aggregate by contact
 - Show top 20 by duration
-- Filter by month + year
+- Filter by month & year
 
 ## Build (one command)
 
